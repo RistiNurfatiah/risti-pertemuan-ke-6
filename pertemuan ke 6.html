@@ -1,0 +1,36 @@
+<script>
+
+for (let number = 1; number < 11; number++) {
+        document.write('(FOR) yang ke-' + number + '<br>');
+    }
+
+    document.write('<br>');
+
+    const arr = [
+        'hitam', 'kuning', 'hijau', 'merah'
+    ];
+
+    arr.forEach(e => {
+        document.write('(foreach) bilangan ke' + e + '<br>');
+    });
+
+    document.write('<br>')
+         document.write("(repeat) bilangan <br>".repeat(10));
+   
+     document.write('<br>')
+     let number = 27;
+    while (number < 36) {
+        document.write('(WHILE) yang ke-' + number + '<br>');
+        number++;
+    }
+
+    document.write('<br>');
+
+    let number1 = 36;
+    do {
+        document.write('( do WHILE) yang ke-' + number1 + '<br>');
+        number1++;
+    } while (number1 < 51);
+
+
+</script>
